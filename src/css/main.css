@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgoldenrod;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding: 30px;
+}
+hr{
+    height: 25px;
+    background-color: black;
+    border: none;
+    margin: 30px 0;
+}
+.container{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    height: 80px;
+    font-size: 50px;
+}
+input[type = 'text']{
+    width: 335px;
+    text-align: right;
+}
+
+input[type = 'button'] {
+    width: 80px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 3px;
+    box-shadow: 2px 2px rgba(107,105,107,1);
+}
+input[type = 'button']:last-child,
+input[type = 'button']:nth-child(23){
+    width: 166px;
+}
